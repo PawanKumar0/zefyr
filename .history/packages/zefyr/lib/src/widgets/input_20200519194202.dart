@@ -183,5 +183,5 @@ class InputConnectionController implements TextInputClient {
 
   @override
   // TODO: implement currentTextEditingValue
-  TextEditingValue get currentTextEditingValue => _lastKnownRemoteTextEditingValue;
+  TextEditingValue get currentTextEditingValue => throw UnimplementedError();
 }
